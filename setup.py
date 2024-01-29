@@ -159,7 +159,7 @@ setup(
     ],
     entry_points={
         "lms.djangoapp": [
-            "cm_plugin = cm_plugin.cm_plugin.apps:CmPluginConfig",
+            "cm_plugin = cm_plugin.apps:CmPluginConfig",
         ],
     }
 )
